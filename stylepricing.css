@@ -25,7 +25,7 @@
   
   /* Pricing header */
   .price .header {
-    background-color: rgb(77, 128, 223);
+    background-color: #7D7DF7;
     color: white;
     font-size: 25px;
   }
@@ -52,7 +52,7 @@
   }
     /* The "Sign Up" button */
     .button {
-        background-color: rgb(77, 128, 223);
+        background-color: #7D7DF7;
         border: none;
         color: white;
         padding: 10px 25px;
@@ -71,4 +71,4 @@
         }
         
 
-    
+

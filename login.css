@@ -6,7 +6,7 @@
   align-items: center;
   padding-top: 10em;
 }
-.form {
+.login_form {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -18,7 +18,7 @@
     transition: .4s ease-in-out;
   }
   
-  .form:hover {
+  .login_form:hover {
     transform: scale(1.05);
     border: 1px solid black;
   }
@@ -93,6 +93,8 @@
     transition: .4s ease-in-out;
     background-color: #252525;
     color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
   }
   
   .btnlogin2:hover {
@@ -117,14 +119,8 @@
   }
   .splash {
     position: absolute;
-    height: 100vh;
     z-index: -1;
     bottom: 0;
     right: 0;
     height: calc(100vh - 128px);
-    transition: .4s ease-in-out;
-  }
-
-  .splash:hover {
-    transform: scale(1.05);
   }

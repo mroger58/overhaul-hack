@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>InkLink</title>
+    <link rel="stylesheet" href="\./style.css">
+    <link rel="stylesheet" href="./stylehelp.css">
+    <link rel="icon" href="assets/link.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="pages">
+        <div class = "pic">
+          <a href = \index.html>
+            <img src="\assets/logo.png" alt="logo">
+          </a>
+        </div>
+        <a href="\index.html">Home</a>
+        <a href="\Pricing/pricing.html">Pricing</a>
+        <a href="\Missions/missions.html">Mission</a>
+      </div>
+      <div class="general">
+        <a href="\Help/help.html">Help</a>
+        <a href="\Login/login.html">Login</a>
+        <a href="\Download/download.html" class="btn">Download</a>
+      </div>
+    </div>
+      <div class = "main">
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact me</h2>
+              <p>Please enter your information below!</p>
+            </div>
+            <div class="row">
+              <div class="column">
+              </div>
+              <div class="column">
+                <form action="thankyou.html">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email..">
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <div class = "button">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+  </body>
+  <script src="script.js"></script>
+</html>
+      

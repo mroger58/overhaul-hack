@@ -1,0 +1,106 @@
+.downloads {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+  }
+
+  .downloads h1 {
+    color: #333;
+  }
+
+  .macos {
+    background-color: #7D7DF7;
+  }
+  .macos:hover {
+    transition: 1.0s;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid rgba(#000, 0.05);
+    position: relative;
+    padding: 20px 30px 20px 70px;
+    background: rgba(btn-color, 0.6);
+    color: rgba(#000, 0.5);
+    cursor: pointer;
+    transform-style:( preserve-3d );
+    transition:( all 500ms ease-in-out);
+    :hover {
+    transform:( translateY(-5px));
+      color: rgba(#7D7DF7), 0.8;
+      background: rgba(btn-color, 0.8);
+      > span {
+        transition:( all 800ms ease-in-out);
+        transform:( rotateY(90deg) rotate( -360deg ) );
+       }
+    }
+  }
+  
+  .windows {
+    background-color: #7D7DF7;
+  }
+  .windows:hover {
+    transition: 1.0s;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid rgba(#000, 0.05);
+    position: relative;
+    padding: 20px 30px 20px 70px;
+    background: rgba(btn-color, 0.6);
+    color: rgba(#000, 0.5);
+    cursor: pointer;
+    transform-style:( preserve-3d );
+    transition:( all 500ms ease-in-out);
+    :hover {
+    transform:( translateY(-5px));
+      color: rgba(#7D7DF7), 0.8;
+      background: rgba(btn-color, 0.8);
+      > span {
+        transition:( all 800ms ease-in-out);
+        transform:( rotateY(90deg) rotate( -360deg ) );
+       }
+    }
+  }
+  .chromeos {
+    background-color: #7D7DF7;
+  }
+  .chromeos:hover {
+    transition: 1.0s;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid rgba(#000, 0.05);
+    position: relative;
+    padding: 20px 30px 20px 70px;
+    background: rgba(btn-color, 0.6);
+    color: rgba(#000, 0.5);
+    cursor: pointer;
+    transform-style:( preserve-3d );
+    transition:( all 500ms ease-in-out);
+    :hover {
+    transform:( translateY(-5px));
+      color: rgba(#7D7DF7), 0.8;
+      background: rgba(btn-color, 0.8);
+      > span {
+        transition:( all 800ms ease-in-out);
+        transform:( rotateY(90deg) rotate( -360deg ) );
+       }
+    }
+  }
+
+  .splash {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    height: calc(100vh - 128px);
+}
+
+  /* The "Sign Up" button */
+  .button {
+    background-color: #7D7DF7;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
